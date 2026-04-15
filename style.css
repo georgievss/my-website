@@ -154,6 +154,10 @@ body.is-transitioning .page-transition-overlay {
     letter-spacing: -1px;
 }
 
+.education-heading {
+    margin-bottom: 68px;
+}
+
 .description {
     margin: 0 0 20px;
     max-width: 550px;
@@ -183,6 +187,15 @@ body.is-transitioning .page-transition-overlay {
 }
 
 .education-entry__line {
+    margin: 0 0 4px;
+}
+
+.education-bullets {
+    margin: 8px 0 0 20px;
+    padding: 0;
+}
+
+.education-bullets li {
     margin: 0 0 4px;
 }
 
