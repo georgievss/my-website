@@ -154,8 +154,59 @@ body.is-transitioning .page-transition-overlay {
     letter-spacing: -1px;
 }
 
-.education-heading {
-    margin-bottom: 68px;
+.right-panel h2.education-heading,
+.right-panel h2.experience-heading {
+    margin: 0 0 68px;
+}
+
+.experience-entry {
+    margin: 0 0 20px;
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.experience-entry:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.experience-entry + .experience-entry {
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 2px solid #111;
+}
+
+.experience-meta {
+    margin: 0 0 4px;
+    color: #5a5a5a;
+    font-size: 16px;
+}
+
+.experience-role {
+    margin: 10px 0 14px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #111;
+}
+
+.experience-description {
+    margin: -6px 0 0;
+    max-width: 550px;
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.experience-bullets,
+.education-bullets {
+    margin: 0 0 0 20px;
+    padding: 0;
+    color: #5a5a5a;
+}
+
+.experience-bullets li,
+.education-bullets li {
+    margin: 0 0 10px;
 }
 
 .description {
@@ -187,15 +238,6 @@ body.is-transitioning .page-transition-overlay {
 }
 
 .education-entry__line {
-    margin: 0 0 4px;
-}
-
-.education-bullets {
-    margin: 8px 0 0 20px;
-    padding: 0;
-}
-
-.education-bullets li {
     margin: 0 0 4px;
 }
 
