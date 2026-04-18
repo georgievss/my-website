@@ -154,6 +154,7 @@ body.is-transitioning .page-transition-overlay {
     letter-spacing: -1px;
 }
 
+.right-panel h2.about-heading,
 .right-panel h2.education-heading,
 .right-panel h2.experience-heading {
     margin: 0 0 68px;
@@ -187,14 +188,6 @@ body.is-transitioning .page-transition-overlay {
     font-weight: 700;
     font-size: 20px;
     color: #111;
-}
-
-.experience-description {
-    margin: -6px 0 0;
-    max-width: 550px;
-    color: #5a5a5a;
-    font-size: 16px;
-    line-height: 1.55;
 }
 
 .experience-bullets,
