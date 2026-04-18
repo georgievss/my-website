@@ -28,6 +28,10 @@
                 return;
             }
 
+            if (link.hasAttribute("download") || /\.pdf(\?|$)/i.test(href)) {
+                return;
+            }
+
             event.preventDefault();
             document.body.classList.add("is-transitioning");
 
